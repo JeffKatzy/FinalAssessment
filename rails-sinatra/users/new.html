@@ -12,6 +12,9 @@
     <form class="" action="/users" method="POST">
       <label for="name">Enter your name: </label>
       <input type="text" name="name" />
+<!--      preferred  -->
+            <input type="text" name="user[name]" />
+<!--      then params = {user: {name: 'foo'}}  -->
       <input type="submit" />
     </form>
   </body>
