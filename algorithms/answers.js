@@ -1,3 +1,5 @@
+// give the recursive versions of these a shot.
+
 //Question 2
 //from the inside out
 function reverse_string(str){
