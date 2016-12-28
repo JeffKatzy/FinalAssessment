@@ -31,6 +31,7 @@ class UsersController < ApplicationController
     @user.update(params[])
     redirect_to user_path(@user)
   end
+#   patch user/:id
   # post users/:id/edit
 
   def destroy
